@@ -1,0 +1,47 @@
+Disease,Severity,Symptoms
+Pulmonary Fibrosis,High,Shortness of breath; Cough; Fatigue
+Bronchiectasis,High,Chronic cough; Shortness of breath; Frequent lung infections
+Minor Surgery Wounds,Mild,Localized pain; Swelling; Redness
+Common Cold,Low,Sneezing; Runny nose; Sore throat; Mild fever
+Influenza (Flu),Moderate,Fever; Chills; Muscle aches; Cough; Congestion
+COVID-19,High,Fever; Cough; Shortness of breath; Loss of taste or smell
+Migraine,Moderate,Severe headache; Nausea; Sensitivity to light
+Tension Headache,Low,Dull head pain; Sensitivity to light; Tender scalp
+Cluster Headache,High,Severe burning pain around one eye; Redness; Tearing
+Asthma,Moderate,Wheezing; Shortness of breath; Chest tightness
+Bronchitis (Acute),Mild,Cough; Mucus; Mild chest pain
+Bronchitis (Chronic),Moderate,Chronic cough; Chest discomfort; Fatigue
+Hypertension (High Blood Pressure),Moderate,Headaches; Dizziness; Nosebleeds (often asymptomatic)
+Prehypertension,Low,Borderline high blood pressure; No clear symptoms
+Hypertensive Crisis,High,Severe headache; Chest pain; Vision problems
+Diabetes (Type 2),High,Increased thirst; Frequent urination; Fatigue
+Prediabetes,Low,Increased thirst; Fatigue; Mild weight gain
+Tuberculosis (Active),High,Chronic cough; Weight loss; Night sweats; Fever
+Latent Tuberculosis,Low,No symptoms (dormant infection)
+Chronic Kidney Disease (CKD),High,Fatigue; Swelling in feet and ankles; Shortness of breath
+Kidney Stones,Moderate,Severe pain; Blood in urine; Frequent urination
+Urinary Tract Infection (UTI),Mild,Burning urination; Frequent urge to urinate; Cloudy urine
+Psoriasis,Mild,Red patches of skin; Dry skin; Itching
+Eczema (Atopic Dermatitis),Mild,Dry skin; Itching; Red patches
+Contact Dermatitis,Mild,Rash; Itching; Blisters
+Acne Vulgaris,Mild,Pimples; Blackheads; Whiteheads
+Peptic Ulcer Disease,Moderate,Burning stomach pain; Bloating; Heartburn
+Gastritis,Mild,Stomach pain; Nausea; Indigestion
+Osteoarthritis,Moderate,Joint pain; Stiffness; Reduced flexibility
+Rheumatoid Arthritis,High,Swollen joints; Joint stiffness; Fatigue
+Tendonitis,Mild,Joint pain; Swelling; Tenderness
+Glaucoma,High,Vision loss; Eye pain; Redness in the eye
+Cataracts,Moderate,Blurry vision; Faded colors; Difficulty with night vision
+Conjunctivitis (Pink Eye),Mild,Redness; Itching; Watery eyes
+Otitis Media (Ear Infection),Mild,Ear pain; Hearing loss; Fluid drainage from ear
+Sinusitis,Moderate,Facial pain; Nasal congestion; Headache
+Tonsillitis,Mild,Sore throat; Difficulty swallowing; Swollen tonsils
+Deviated Nasal Septum,Mild,Blocked nostril; Breathing difficulty; Nosebleeds
+Anxiety Disorders,Moderate,Excessive worry; Restlessness; Fatigue
+Panic Disorder,Moderate,Panic attacks; Sweating; Chest pain
+Depression,High,Feelings of sadness; Loss of interest; Changes in appetite
+Seasonal Affective Disorder (SAD),Moderate,Depressive episodes during seasons; Fatigue; Hopelessness
+Pneumonia,High,Cough with phlegm; Fever; Chills; Shortness of breath
+Bronchiolitis (in infants),Moderate,Cough; Wheezing; Difficulty breathing
+Allergic Rhinitis,Mild,Sneezing; Runny nose; Itchy eyes
+COPD (Chronic Obstructive Pulmonary Disease),High,Shortness of breath; Chronic cough; Wheezing

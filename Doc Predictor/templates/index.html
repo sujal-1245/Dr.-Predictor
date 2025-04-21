@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Predictor</title>
+
+    <!-- Your main stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Axios for Geocoding (optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Your main JS -->
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+
+    <!-- Your Map-specific JS (new!) -->
+    <script src="{{ url_for('static', filename='map.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Disease Prediction System</h1>
+
+        <div class="symptom-selection">
+            <label for="symptoms">Select Symptoms:</label>
+            <select id="symptoms">
+                <option value="" disabled selected>Select a symptom</option>
+                {% for symptom in symptoms %}
+                    <option value="{{ symptom }}">{{ symptom }}</option>
+                {% endfor %}
+            </select>
+            <button id="add-symptom">+</button>
+        </div>
+
+        <div class="selected-symptoms">
+            <h3>Selected Symptoms:</h3>
+            <ul id="symptom-list"></ul>
+        </div>
+
+        <div class="severity-selection">
+            <label for="severity">Select Severity:</label>
+            <input type="range" id="severity" min="0" max="2" step="1" value="1">
+            <div id="severity-labels">
+                <span>Low</span>
+                <span>Mild</span>
+                <span>High</span>
+            </div>
+        </div>
+
+        <button id="predict">Predict Disease</button>
+
+        <div id="result" class="hidden">
+            <h2>Predicted Disease:</h2>
+            <p id="disease-name"></p>
+
+
+
+            <div class="nearby-doctors">
+                <h2 class="doctors-header">Nearby Doctors</h2>
+
+                <input 
+                type="text" 
+                id="city-input" 
+                placeholder="Enter your city" 
+                style="padding: 10px 15px; 
+                       width: 250px; 
+                       border: 2px solid #4CAF50; 
+                       border-radius: 8px; 
+                       font-size: 16px; 
+                       outline: none; 
+                       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                       transition: all 0.3s ease;"
+            >
+            
+                <button id="set-location-btn" class="btn-location">Set Location</button>
+
+                <div id="map-container">
+                    <div id="map" style="height: 400px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
